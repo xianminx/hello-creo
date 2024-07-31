@@ -56,7 +56,7 @@ export const Tickets = (props: { data: Ticket[] }): React.ReactNode => {
             </CardContent>
           </Card>
         </div>
-        <div className="flex flex-col">
+        {/* <div className="flex flex-col">
           <Card className="flex-grow">
             <CardContent>
               {selectedTicketId ? (
@@ -64,7 +64,7 @@ export const Tickets = (props: { data: Ticket[] }): React.ReactNode => {
               ) : null}
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </div>
     </div>
   );
